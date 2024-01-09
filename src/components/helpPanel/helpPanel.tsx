@@ -380,7 +380,7 @@ className="border-none outline-0 shadow-none"
                                  <div className="payment__right">
                                    {user.prepayment &&
                                        <>
-                                          <div className="payment__prepayment text-black-2 text-xs font-bold">Передплат: {user.prepayment.chickenNuggets.date.length}</div>
+                                          <div className="payment__prepayment text-black-2 text-xs font-bold whitespace-nowrap">{t('help_panel.subscriptions')}: {user.prepayment.chickenNuggets.date.length}</div>
                                          <div className="payment__date text-black-3 text-sm font-normal">15/12/2024</div>
                                        </>
                                    }
