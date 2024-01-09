@@ -287,3 +287,10 @@
     }
   }
 }
+
+@media(max-width:567px){
+  .additional_information__payment{
+    margin-left: 0px !important;
+    max-width: 158px;
+  }
+}
