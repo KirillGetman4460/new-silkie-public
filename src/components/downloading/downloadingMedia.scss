@@ -1,0 +1,62 @@
+@media(max-width: 768px){
+    .downloading__conteiner{
+        margin-top: 30px;
+    }
+}
+@media(max-width: 767px){
+    .downloading__conteiner{
+        margin-left: 43px;
+        margin-right: 43px;
+        flex-direction: column;
+        gap: 32px;
+        & .downloading__block {
+            max-width: 490px;
+            width: 100%;
+            margin: 0px auto;
+        }
+    }
+}
+@media(max-width: 576px){
+    .downloading__conteiner{
+        margin-top: 38px;
+        & .downloading__block{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            & .downloading__instructions__title{
+                font-size: 12px;
+            }
+            & .instructions__instructions__list{
+                gap: 0px;
+
+                & .instructions__list__item{
+                    font-size: 12px;
+                }
+            }
+            & .downloading__text{
+                max-width: 442px;
+                font-size: 12px;
+                padding-bottom: 8px;
+            }
+            & .downloading__title{
+                font-size: 16px;
+                padding-bottom: 2px;
+            }
+            
+        }
+    }
+}
+@media(max-width: 460px){
+    .downloading__conteiner{
+        margin-top: 40px;
+        & .downloading__block{
+            & .instructions__instructions__btn{
+                & span{
+                    padding: 8px 0px;
+                    font-size: 12px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

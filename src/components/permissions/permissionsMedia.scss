@@ -1,0 +1,104 @@
+@media(max-width: 1200px){
+    .permissions__conteiner{
+        margin: 24px;
+    }
+}
+@media(max-width: 1199px){
+    .permissions__conteiner{
+        margin: 0px;
+    }
+}
+@media(max-width: 768px){
+    .permissions__conteiner{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+@media(max-width: 767px){
+    .accordion__content__translation{
+        &.permissions{
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 23px;
+            padding-bottom: 23px;
+            max-width: 455px;
+            margin: 0px auto;
+            & .accordion__list{
+                gap: 0px;
+            }
+        }
+    }
+    .icon__arrow{
+        right: 23px;
+        top: 21px;
+    }
+    .permissions__table__row{
+        &.selected{
+            background: rgb(255, 222, 163);
+        }
+        
+    }
+    .accordion__list__item{
+        &.permissions{
+            padding: 0;
+            & span{
+                padding-right: 8px;
+                font-size: 12px;
+                line-height: 16.34px;
+                font-weight: 400;
+            }
+        }
+    }
+    .permissions__table__title{
+        padding-left: 12px;
+        padding-right: 12px;
+        & .cell{
+            display: none;
+            &:nth-child(1){
+                display: block;
+                font-size: 12px;
+                flex: 1;
+            }
+        }
+    }
+    .permissions__table__row {
+        padding-left: 12px;
+        padding-right: 12px;
+        & .cell{
+            display: none;
+            font-size: 12px;
+            
+            &:nth-child(1){
+                display: block;
+                flex: 1;
+            }
+        }
+    }
+}
+
+@media(max-width: 575px){
+    .accordion__content__translation{
+        &.permissions{
+            & .accordion__list {
+                flex-wrap: wrap;
+                max-width: 255px;
+            }
+            & .accordion__list__item{
+                max-width: 94px;
+                width: 100%;
+                justify-content: space-between;
+                
+                &:nth-child(2){
+                    max-width: 94px;
+                }
+                &:nth-child(3){
+                    margin-top: 24px;
+                }
+                &:nth-child(4){
+                    margin-top: 24px;
+                    max-width: 94px;
+                }
+            }
+        }
+    }
+}

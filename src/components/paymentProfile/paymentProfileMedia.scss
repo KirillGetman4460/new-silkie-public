@@ -1,0 +1,51 @@
+@media(max-width: 1200px){
+    .form__payment{
+        &.settings{
+            max-width: 486px;
+            & label{
+                justify-content: end;
+            }
+            .checkboxs{
+                justify-content: end;
+                padding-left: 0px;
+                padding-right: 80px;
+            }
+            & .form__bottom{
+               justify-content: end;
+                & label:nth-child(2){
+                    max-width: 418px;
+                    width: 100%;
+                }
+                
+            }
+        }
+    }
+}
+@media(max-width: 1199px){
+    .payment__profile__conteiner{
+        &.one{
+            margin: 0px;
+        }
+    }
+    .form__payment{
+        &.settings{
+            max-width: 930px;
+            & label{
+                justify-content: start;
+            }
+            .checkboxs{
+                justify-content: start;
+                padding-left: 0px;
+                padding-right: 80px;
+            }
+            & .form__bottom{
+               justify-content: end;
+                & label:nth-child(2){
+                    max-width: 418px;
+                    width: 100%;
+                }
+                
+            }
+        }
+    }
+}

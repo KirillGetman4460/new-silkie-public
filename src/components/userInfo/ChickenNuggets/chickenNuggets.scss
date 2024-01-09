@@ -1,0 +1,51 @@
+.subscriptions__buttons{
+    padding-top: 38px;
+    & .subscriptions__button:nth-child(1){
+        padding-right: 55px;
+    }
+    & .subscriptions__button:nth-child(2){
+        padding: 14px 40px;
+        color: white;
+    }
+}
+.payment{
+    &.sub{
+        left: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.payment__users{
+    gap: 18px;
+}
+.payment__settings{
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-right: 42px solid rgba(255, 222, 163, 1);
+    &.user{
+        border-right: 0px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    & .payment__users{
+        padding-top: 13px;
+        padding-bottom: 17px;
+        padding-left: 26px;
+        padding-right: 21px;
+        & span{
+            text-transform:lowercase;
+        }
+    }
+}
+.payment__delete{
+    position: absolute;
+    right: -33px;
+    & img{
+        
+    }
+    // margin: 34px 8px;
+}

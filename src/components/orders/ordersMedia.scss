@@ -1,0 +1,119 @@
+@media(max-width: 1199px){
+    .orders__conteiner {
+        margin: 0px;
+    }
+}
+@media(max-width: 991px){
+    .orders__title{
+        padding-left: 24px;
+        padding-right: 24px;
+        gap: 80px;
+    }
+    .orders__row{
+        gap: 80px;
+        padding-left: 24px;
+        padding-right: 24px;
+        & .cell:nth-child(1){
+            white-space: nowrap;
+        }
+    }
+}
+@media(max-width: 858px){
+    .orders__title{
+        gap: 40px;
+    }
+    .orders__row{
+        gap: 40px;
+    }
+}
+@media(max-width: 768px){
+    .orders__title{
+        padding-left: 12px;
+        padding-right: 5px;
+    }
+    .orders__row{
+        padding-left: 12px;
+        padding-right: 5px;
+    }
+    .money__button {
+        right: 12px;
+    }
+
+}
+
+@media(max-width: 708px){
+    .orders__title{
+        gap: 30px;
+    }
+    .orders__row{
+        gap: 30px;
+    }
+}
+@media(max-width: 680px){
+    .orders__title{
+        gap: 20px;
+    }
+    .orders__row{
+        gap: 20px;
+    }
+    // .orders__title{
+    //     gap: 10px;
+    // }
+    // .orders__row{
+    //     gap: 20px;
+    //     padding-right: 10px;
+    // }
+    // .money__button {
+    //     right: 12px;
+    // }
+}
+@media(max-width: 620px){
+    .orders__title{
+        gap: 10px;
+        & .cell:nth-child(4){
+            padding-right: 50px;
+        }
+    }
+    .orders__row{
+       gap: 10px;
+       & .cell:nth-child(4){
+        padding-right: 50px;
+    }
+    }
+
+}
+@media(max-width: 575px){
+    
+    .orders__conteiner{
+        padding: 24px 8px;
+    }
+    .orders__title{
+        & .cell:nth-child(2){
+            display: none;
+        }
+        & .cell:nth-child(3){
+            display: none;
+        }
+        & .cell:nth-child(4){
+            padding-right: 0px;
+        }
+    }
+    .orders__row{
+        &.selected{
+            background: rgb(255, 222, 163);
+        }
+    
+        & .cell:nth-child(2){
+            display: none;
+        }
+        & .cell:nth-child(3){
+            display: none;
+        }
+        & .money__button{
+            display: none;
+        }
+        & .cell:nth-child(4){
+            padding-right: 0px;
+        }
+    }
+}

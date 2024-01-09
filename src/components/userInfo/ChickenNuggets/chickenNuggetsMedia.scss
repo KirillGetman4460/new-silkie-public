@@ -1,0 +1,75 @@
+@media(max-width:1200px){
+    .calendar__list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .calendar__list .calendar__item .payment{
+        margin-top: 16px;
+    }
+}
+@media(max-width:1199px){
+    .calendar__list{
+
+        max-width: 100%;
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .chickenNuggets{
+        margin: 20px;
+    }
+}
+@media(max-width:991px){
+    .calendar__list{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .chickenNuggets{
+        margin: 24px;
+    }
+}
+
+@media(max-width:767px){
+    .subscriptions__title{
+        padding-top: 39px;
+    }
+    .calendar__list .calendar__item .payment .payment__content{
+        margin-left: 10px;
+    }
+    .chickenNuggets{
+        margin: 16px;
+    }
+    .calendar__list .calendar__item .payment{
+        max-width: 156px;
+    }
+    .subscriptions__list .subscriptions__list__item{
+        max-width: 248px;
+    }
+    .subscriptions__list{
+        gap: 16px;
+    }
+    .subscriptions__list a{
+        max-width: 248px;
+    }
+}
+@media(max-width:575px){
+    .calendar__list{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .chickenNuggets{
+        margin: 8px;
+    }
+
+    .subscriptions__list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 24px;
+        padding-left: 0px;
+    }
+    
+}

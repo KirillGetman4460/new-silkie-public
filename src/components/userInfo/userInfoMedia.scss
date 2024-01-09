@@ -1,0 +1,168 @@
+@media(max-width:1199px){
+    .user__info__conteiner{
+        margin: 17px 24px;
+        margin-top: 0px;
+    }
+    .user__delete{
+        margin: 0px 24px;
+        margin-top: 32px;
+    }
+    .back{
+        padding: 16px 0px;
+        padding-right: 24px;
+        font-size: 14px;
+
+    }
+}
+
+@media(max-width:992px){
+    
+    .user__info__content {
+        padding-top: 12px;
+    }
+}
+@media(max-width:991px){
+    .user__personal__data {
+        gap: 87px;
+    }
+    .personal__data__left{
+        margin-right: 0px;
+    }
+}
+@media(max-width:820px){
+    .user__personal__data {
+        gap: 57px;
+    }
+}
+@media(max-width:786px){
+    .personal__data__left{
+        span{
+            font-size: 12px;
+        }
+    }
+    .personal__data__right{
+        span{
+            font-size: 12px;
+        }
+    }
+    .user__personal__data{
+        gap: 50px;
+    }
+}
+@media(max-width:777px){
+    .user__personal__data input{
+        max-width: 272px;
+    }
+    .copy__id {
+        right: 0px;
+    }
+    .user__personal__data{
+        gap: 40px;
+    }
+}
+@media(max-width:768px){
+    .back{
+        padding-top: 0px;
+        padding-bottom: 8px;
+    }
+}
+@media(max-width:767px){
+    .user__personal__data{
+        gap: 40px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .user__personal__data input{
+        max-width: 212px;
+    }
+    .copy__id {
+        right: 60px;
+    }
+    .personal__data__right{
+        max-width: 100%;
+    }
+    .personal__data__left{
+        max-width: 100%;
+    }
+    .user__info__conteiner {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .back{
+        display: none !important;
+    }
+    .profile__invite{
+        flex-direction: column;
+        padding: 0px 8px !important;
+    }
+    .profile__invite__button{
+        margin-top: 32px;
+        width: 100%;
+        border: 1px solid black;
+        padding: 12px 0px;
+        & span{
+            border: none;
+            width: 100%;
+            padding: 0px;
+        }
+    }
+   .user__info__tabs{
+        padding: 0px 16px;
+        padding-top: 32px;
+        padding-bottom: 12px;
+
+   }
+   .user__info__conteiner {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   }
+   .user__delete {
+        margin: 0px;
+        padding: 16px 24px;
+        padding-bottom: 40px;
+   }
+   .user__delete__title {
+    font-size: 14px;
+   }
+}
+@media(max-width:575px){
+    .user__personal__data{
+        flex-direction: column;
+        padding: 0px 8px;
+        gap: 0px;
+        padding-bottom: 24px;
+    }
+    .profile__invite {
+        padding-top: 24px !important;
+        padding: 0px 8px !important;
+    }
+    .copy__id{
+        margin-left: 8px;
+    }
+    .personal__data__left {
+        & input{
+            max-width: 93%;
+        }
+    }
+    .input__content{
+        & input{
+            max-width: 100% ;
+        }
+    }
+    .personal__data__left{
+        max-width: 100% !important;
+    }
+    .personal__data__right{
+        max-width: 100% !important;
+    }
+    .user__info__tabs{
+        padding-left: 8px;
+        padding-right: 8px;
+        gap: 13px;
+    }
+    .info__tabs__title {
+        font-size: 12px !important; 
+        font-weight: 600 !important;
+    }
+   
+}

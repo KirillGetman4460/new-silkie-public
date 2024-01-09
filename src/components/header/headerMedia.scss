@@ -1,0 +1,45 @@
+@media(max-width: 1199px){
+    .header{
+        border: 1px solid rgba(191, 191, 191, 1);
+    }
+    .header__conteiner{
+        padding: 20px 24px;
+    }
+    .header__title__page{
+        padding-left: 20px;
+    }
+}
+@media(max-width: 768px){
+        .header__title__page{
+            padding: 9px 24px;
+        }
+        .header{
+            border: none;
+        }
+        .header__title__page{
+            padding-left: 16px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            & span{
+                font-size: 14px;
+            }
+        }
+}
+@media(max-width: 767px){
+    .header__title__page{
+        padding-right: 52px;
+        & span{
+            font-size: 12px;  
+            white-space: nowrap;         
+        }
+        & span.active{        
+            &::before{
+                top: 1px;
+                height: 15px;
+                width: 2px;
+
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,79 @@
+.subscriptions__list {
+    padding-top: 31px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+.subscriptions__list{
+    gap: 32px;
+    & a{
+        max-width: 280px;
+        width: 100%;
+        &.active{
+            & .subscriptions__list__item{
+                background: rgba(255, 222, 163, 1);
+                border-left: 6px solid rgba(255, 170, 23, 1);
+            }
+        }
+    }
+    & .subscriptions__list__item{
+        border-left: 6px solid rgba(126, 126, 126, 1);
+        padding-left: 19px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        max-width: 280px;
+        width: 100%;
+        cursor: pointer;
+    }
+}
+.subscriptions__text{
+    max-width: 634px;
+    margin: 0px auto;
+    padding-top: 148px;
+}
+.subscriptions__btn{
+    & span{
+        padding: 14px 71px;
+    }
+}
+.subscriptions__title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.24px;
+    padding-bottom: 24px;
+    padding-top: 50px;
+}
+
+.calendar__list{
+    max-width: 989px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    & .calendar__item{
+        height: 110px;
+        border: 0.5px solid rgba(191, 191, 191, 1);
+        text-transform: uppercase;
+        & .payment{
+            margin: 0px auto;
+            border-left: 6px solid rgba(51, 77, 188, 1);
+            background: rgba(228, 228, 231, 1);
+            max-width: 182px;
+            width: 100%;
+            margin-top: 12px;
+            & .payment__content{
+                margin-left: 23px;
+                padding: 6px 0px;
+            }
+        }
+        &:hover{
+            border: 0.5px solid rgba(255, 170, 23, 1);
+            & .calendar__item__title{
+                color: rgba(255, 170, 23, 1);
+            }
+        }
+        & .calendar__item__title{
+            padding: 4px 0px;
+        }
+    }
+}

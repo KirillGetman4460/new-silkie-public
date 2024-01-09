@@ -1,0 +1,36 @@
+.profile__invite{
+    padding: 0px 24px;
+    max-width: 992px;
+    & .profile__invite__button{
+        & span{
+            padding: 13.5px 42px;
+            margin-top: 32px;
+        }
+       
+    }
+}
+#my_modal_2{
+    & input{
+        padding: 12px 16px;
+        padding-right: 0px;
+    }
+}
+.personal__data__left{
+    & .modal__select{
+        & .btn{
+            padding: 0px;
+            max-width: 300px;
+            padding-left: 16px;
+            padding-right: 15px;
+            border: none;
+            background-color: rgb(247 247 249 / var(--tw-bg-opacity));
+            & ul{
+                max-width: 300px;
+            }
+            & span{
+                padding: 0px;
+
+            }
+        }
+    }
+}

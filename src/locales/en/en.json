@@ -1,0 +1,139 @@
+{
+    "title": "Welcome!",
+    "help_panel": {
+      "title": "Help Panel",
+      "users":"Users",
+      "chicken_nuggets_subscription":"Chicken Nuggets Subscription",
+      "canja_de_galinha_subscription":"Canja de Galinha Subscription"
+    },
+    "sideBar":{
+      "help_panel":"Help panel",
+      "сart_of_orders":"Cart of orders",
+      "orders":"Orders",
+      "translation_history":"Translation history",
+      "users_and_permissions":"Users and permissions",
+      "users":"Users",
+      "account_outline":"Account outline",
+      "permissions":"Permissions",
+      "documentation":"Documentation",
+      "ppo":"PPO",
+      "data_base":"Data base",
+      "consent_to_data_processing":"Consent to data processing",
+      "terms_and_conditions":"Terms and conditions",
+      "privacy_policy":"Privacy policy",
+      "cookie_policy":"Cookie policy",
+      "payment_profile":"Payment Profile",
+      "downloading_applications":"Downloading Applications",
+      "personal_data":"Personal data",
+      "notification":"notification",
+      "subscriptions":"subscriptions",
+      "payments_by_settings":"Payments by settings"
+    },
+    "usersInfo":{
+      "personal_data":"Personal data",
+      "notification":"Notification",
+      "subscriptions":"Subscriptions",
+      "input_id":"Unique ID",
+      "input_role":"Recording role",
+      "input_name":"User name",
+      "input_email":"Email",
+      "input_phone":"Phone",
+      "input_password":"Password",
+      "profile_invite_text":"Use the specified data to log into your account and receive notifications",
+      "profile_invite_button":"INVITE",
+      "back_btn":"Come Back",
+      "user_delete_title":"Danger zone",
+      "user_delete_text":"Once the user account is deleted, this action cannot be undone.",
+      "user_delete_btn":"Delete"
+    },
+
+    "userNotification":{
+      "title":"Name",
+      "createProfile":"Create an account",
+      "deleteProfile":"Account deletion",
+      "editPayment":"Change of payment data",
+      "infoPayment":"Payment statement",
+      "reminder":"Reminder about the need to pay",
+      "prepayments":"",
+      "haveDontPay":"Change user account email",
+      "editEmail":"Change user account password",
+      "editPassword":"Adding a user",
+      "addUser":"Deleting a user",
+      "deleteUser":"Deleting a user",
+      "editEmailExceptOwner":"Changing the mail of any user record other than the Owner",
+      "editPasswordExceptOwner":"Changing the mail of any user record other than the Owner",
+      "rolePasswordExceptOwner":"Changing the password of any user record other than the Owner"
+    },
+    "userSubscriptions":{
+      "title":"Chicken Nuggets subscription cell",
+      "subscriptions":"Subscriptions",
+      "January":"January",
+      "February":"February",
+      "March":"March",
+      "April":"April",
+      "May":"May",
+      "June":"June",
+      "July":"July",
+      "August":"August",
+      "Seprember":"Seprember",
+      "October":"October",
+      "November":"November",
+      "December":"December",
+
+      "subscriptions_btn_one":"Cancel",
+      "subscriptions_btn_two":"To the basket"
+    },
+    "basket":{
+      "user_name":"Account name",
+      "chicken_nuggets_subscription":"Subscribe to Chicken Nuggets",
+      "canja_de_galinha_subscription":"Subscribe to Canja de Galinha",
+      "to_be_paid":"To be paid",
+      "basket_btn":"Add an order",
+      "to_pay":"To pay"
+    },
+    "translation_history":{
+      "date":"Date",
+      "total_price":"Total Price"
+    },
+    "permissions":{
+      "table_title_title":"Name",
+      "table_title_owner":"Owner",
+      "table_title_shield":"Shield",
+      "table_title_guide":"Guide",
+      "table_title_user":"User",
+      "helpPanel":"Access to the Help panel",
+      "basket":"Access to sections of the Shopping Cart",
+      "users":"Access to the Users sections",
+      "profile":"Access the Account Profile section",
+      "documentation":"Доступ до розділів Документація",
+      "payments":"Access to the Documentation sections",
+      "editEmail":"Editing mail of any record",
+      "editPassword":"Редагування пароля будь-якого запису",
+      "editMyEmail":"Editing the password of any record",
+      "editMyPassword":"Editing the password of your own record",
+      "createUser":"Create a new record within an account with any role",
+      "editRole":"Editing the role of a record within a user account",
+      "editPayment":"Change of payment data"
+    },
+    "downloading_applications":{
+      "text":"Paying fixed amounts every month? Set up autopay.",
+      "ul":"How auto payment works:",
+      "item_one":"Set up autopayment on available templates.",
+      "item_two":"Adjust the parameters: debit frequency, amount and payment card.",
+      "item_three":"Your template will automatically be billed on the selected day.",
+      "bnt":"Download"
+    },
+    "payment_profile":{
+      "title":"Payments by settings",
+      "text":"You will be shown a grid in the middle of the payment profile where you can choose the type of payment.",
+      "btn":"Go to"
+    },
+    "settingSite":{
+      "title":"Site settings",
+      "select_lang":"Language selection",
+      "select_ua":"Ukrainian",
+      "select_en":"English",
+      "select_val":"Currency selection",
+      "btn":"SAVE"
+    }
+}

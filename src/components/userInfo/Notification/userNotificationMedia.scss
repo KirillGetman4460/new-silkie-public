@@ -1,0 +1,111 @@
+@media(max-width:1199px){
+    .user__info__conteiner {
+        margin: 0px;
+    }
+}
+@media(max-width:768px){
+    // .user__notification__content{
+    //     & .user__table{
+    //         & .user__table__title{
+    //             padding: 0px 12px;
+    //         }
+    //         & .user__row{
+    //             padding: 0px 12px;
+    //         }
+    //     }x
+    // }
+    .accordion__label {
+        text-transform: capitalize;
+    }
+    .user__notification__content{
+        & .user__row {
+            padding: 12px 0px;
+            padding-left: 12px;
+        }
+        & .user__table__title {
+            padding-left: 12px;
+        }
+        & .checkbox__pay{
+            display: none;
+        }
+    }
+
+}
+@media(max-width:767px){
+    .accordion__content__translation{
+        & .notifications{
+            padding: 12px 0px;
+        }
+    }
+    .user__row.active{
+        background: rgba(255, 222, 163, 1);
+    }
+    .accordion__list.notifications .checkbox__pay:nth-child(1){
+        display: block;
+        display: flex;
+        
+    }
+    
+   
+    .user__notification__content{
+        & .user__table{
+            margin: 0px 16px;
+            & .user__table__title{
+                & .cell{
+                    display: none;
+                    flex: 1;
+                    &:nth-child(1){
+                        display: block;
+                    }
+                }
+            }
+            & .user__row{
+                & .cell{
+                    display: none;
+                    flex: 1;
+
+                    &:nth-child(1){
+                        display: block;
+                    }
+                }
+                &.selected{
+                    background: rgb(255, 222, 163);
+                }
+            }
+        }
+    }
+    
+}
+
+@media(max-width:575px){
+    .user__notification__content{
+        & .user__table{
+            margin: 0px 8px;
+        }
+        & .accordion__list{
+            flex-wrap: nowrap !important;
+            align-items: center !important;
+            width: 100% !important;
+            justify-content: space-between !important;
+            & .accordion__list__item {
+                margin-top: 0px !important;
+                max-width: 73px !important;
+                justify-content: space-between !important;
+            }
+        }
+    }
+    .accordion__content__translation.notifications{
+        padding-left: 21px;
+        padding-right: 21px;
+        
+    }
+    .accordion__list.notifications{
+        & .cell{
+            flex: auto;
+            & .accordion__label{
+                font-size: 12px;
+               
+            }
+        }
+    }  
+}

@@ -1,0 +1,45 @@
+.users{
+    margin: 32px 40px;
+}
+.users__table{
+    width: 100%;
+}
+.users__conteiner{
+    margin: 17px 24px;
+}
+.edit__icon{
+    &:hover{
+        & svg path {
+            fill: #FFAA17;
+        }
+    }
+}
+.users__table__title{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;  
+    padding: 0px 24px;
+    & .cell{
+        text-align: left;
+    }
+}
+.users__table__row{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;  
+    padding: 0px 24px;
+    & .cell:nth-child(2){
+        white-space: nowrap;
+    }
+    &:nth-child(2n+1){
+        background: rgba(247, 247, 249, 1);
+    }
+}
+.add__new__users{
+    margin-top: 20px;
+    & span{
+        padding-left: 4px;
+    }
+}

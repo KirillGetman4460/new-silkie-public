@@ -1,0 +1,17 @@
+.custom__input {
+    position: relative;
+    & input:focus {
+      background: rgba(255, 222, 163, 0.18);
+      border-bottom: 1px solid rgba(255, 222, 163, 1);
+    }
+    & .hide__icon{
+      top: 11px;
+      right: 16px;
+    }
+    &.err{
+      & input{
+        color: rgba(255, 47, 10, 1);
+        border-bottom: 1px solid rgba(255, 47, 10, 1);
+      }
+    }
+  }

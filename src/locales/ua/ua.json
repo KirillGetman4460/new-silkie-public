@@ -1,0 +1,138 @@
+{
+    "title": "Ласкаво просимо!",
+    "help_panel": {
+      "title": "ДОВІДКОВА ЛОДВА",
+      "users":"Користувачі",
+      "chicken_nuggets_subscription":"Передплата Chicken Nuggets",
+      "canja_de_galinha_subscription":"Передплата Canja de Galinha"
+    },
+    "sideBar":{
+      "help_panel":"Довідкова лодва",
+      "сart_of_orders":"Кошик замовлень",
+      "orders":"Замовлення",
+      "translation_history":"Історія переказів",
+      "users_and_permissions":"Користувачі та дозволи",
+      "users":"Користувачі",
+      "account_outline":"Начерк облікового запису",
+      "permissions":"Дозволи",
+      "documentation":"Документація",
+      "ppo":"ППО",
+      "data_base":"База знань",
+      "consent_to_data_processing":"Згода на обробку даних",
+      "terms_and_conditions":"Правила та умови",
+      "privacy_policy":"Політика таємності",
+      "cookie_policy":"Політика використання cookie",
+      "payment_profile":"Платіжний профіль",
+      "downloading_applications":"Завантаження застосунків",
+      "personal_data":"Особисті дані",
+      "notification":"СПОВІЩЕННЯ",
+      "subscriptions":"передплати",
+      "payments_by_settings":"Платежі за налаштуваннями"
+    },
+    "usersInfo":{
+      "personal_data":"Особисті дані користувача",
+      "notification":"Сповіщення",
+      "subscriptions":"Передплати",
+      "input_id":"Унікальний ID",
+      "input_role":"Улога запису",
+      "input_name":"Ім’я користувача",
+      "input_email":"Email",
+      "input_phone":"Телефон",
+      "input_password":"Пароль",
+      "profile_invite_text":"Використовуйте вказані дані щоб увійти у свій обліковий запис  та отримувати сповіщення",
+      "profile_invite_button":"INVITE",
+      "back_btn":"Повернутись",
+      "user_delete_title":"Небезпечна зона",
+      "user_delete_text":"Після видалення облікового запису користувача цю дію неможливо відновити. ",
+      "user_delete_btn":"Видалити"
+    },
+    "userNotification":{
+      "title":"Назва",
+      "createProfile":"Створення облікового запису",
+      "deleteProfile":"Видалення облікового запису",
+      "editPayment":"Зміна платіжних даних",
+      "infoPayment":"Відомість сплати",
+      "reminder":"Нагадування про необхідність сплати",
+      "prepayments":"",
+      "haveDontPay":"Зміна пошти облікового запису користувача",
+      "editEmail":"Зміна пароля облікового запису користувача",
+      "editPassword":"Додавання користувача",
+      "addUser":"Видалення користувача",
+      "deleteUser":"Видалення користувача",
+      "editEmailExceptOwner":"Зміна пошти будь-якого запису користувача, крім Власника",
+      "editPasswordExceptOwner":"Зміна пошти будь-якого запису користувача, крім Власника",
+      "rolePasswordExceptOwner":"Зміна пароля будь-якого запису користувача, крім Власника"
+    },
+    "userSubscriptions":{
+      "title":"Стільник передплат Chicken Nuggets",
+      "subscriptions":"Передплат",
+      "January":"СІЧЕНЬ",
+      "February":"ЛЮТИЙ",
+      "March":"БЕРЕЗЕНЬ",
+      "April":"КВІТЕНЬ",
+      "May":"ТРАВЕНЬ",
+      "June":"ЧЕРВЕНЬ",
+      "July":"ЛИПЕНЬ",
+      "August":"СЕРПЕНЬ",
+      "Seprember":"ВЕРЕСЕНЬ",
+      "October":"ЖОВТЕНЬ",
+      "November":"ЛИСТОПАД",
+      "December":"ГРУДЕНЬ",
+
+      "subscriptions_btn_one":"Скасувати",
+      "subscriptions_btn_two":"До кошика"
+    },
+    "basket":{
+      "user_name":"Ім'я облікового запису",
+      "chicken_nuggets_subscription":"Передплата Chicken Nuggets",
+      "canja_de_galinha_subscription":"Передплата Canja de Galinha",
+      "to_be_paid":"До сплати",
+      "to_pay":"Сплатити",
+      "basket_btn":"Додати замовлення"
+    },
+    "translation_history":{
+      "date":"Дата",
+      "total_price":"Сума сплати"
+    },
+    "permissions":{
+      "table_title_title":"Назва",
+      "table_title_owner":"Власник",
+      "table_title_shield":"Щитач",
+      "table_title_guide":"Привідець",
+      "table_title_user":"Користувач",
+      "helpPanel":"Доступ до Довідкової панелі",
+      "basket":"Доступ до розділів Кошика",
+      "users":"Доступ до розділів Користувачі",
+      "profile":"Доступ до розділу Профіль облікового запису",
+      "documentation":"Доступ до розділів Документація",
+      "payments":"Доступ до розділу Виставлення рахунків",
+      "editEmail":"Редагування пошти будь-якого запису",
+      "editPassword":"Редагування пароля будь-якого запису",
+      "editMyEmail":"Редагування електронної пошти власного запису",
+      "editMyPassword":"Редагування пароля власного запису",
+      "createUser":"Створення нового запису всередині облікового запису з будь-якою роллю",
+      "editRole":"Редагування ролі запису всередині облікового запису користувача",
+      "editPayment":"Зміна платіжних даних"
+    },
+    "downloading_applications":{
+      "text":"Сплачуєте щомісяця фіксовані суми? Налаштуйте автоплатіж.",
+      "ul":"Як працює автоплатіж:",
+      "item_one":"Налаштовуєте автоплатіж на доступні шаблони.",
+      "item_two":"Налаштовуєте параметри: частоту списання, суму та платіжну картку.",
+      "item_three":"У вибраний день ваш шаблон буде автоматично сплачений.",
+      "bnt":"Завантажити"
+    },
+    "payment_profile":{
+      "title":"Платежі за налаштуваннями",
+      "text":"Вам буде відображена сітка в середині платіжного профілю де Ви зможете вибрати тип оплати.",
+      "btn":"Перейти"
+    },
+    "settingSite":{
+      "title":"Налаштування сайту",
+      "select_lang":"Вибір мови",
+      "select_ua":"Українська",
+      "select_en":"Англійська",
+      "select_val":"Вибір валюти",
+      "btn":"ЗБЕРЕГТИ"
+    }
+}

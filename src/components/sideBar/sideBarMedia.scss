@@ -1,0 +1,29 @@
+@media(max-width: 1199px){
+    .sideBar{
+        position: fixed;
+        transition: all 0.3s ease-out;
+        top: 0px;
+        left: -100%;
+        padding: 0px 24px;
+        padding-top: 20px;
+        height: 100%;
+        z-index: 11;
+        & .input{
+            margin-bottom: 20px;
+        }
+        &.active{
+            left: 0%;
+        }
+    }
+    .sideBar__back{
+        position: fixed;
+        transition: all 0.3s ease-out;
+        top: 0;
+        &.active{
+            z-index: 10;
+            height: 100%;
+            width: 100%;
+            background: rgba(29, 33, 34, 0.16);
+        }
+    }
+}

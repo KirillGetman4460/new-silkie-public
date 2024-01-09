@@ -1,0 +1,76 @@
+
+.orders__conteiner{
+    margin: 32px 40px;
+    margin-bottom: 0px;
+    padding: 24px;
+    
+}
+.orders__title{
+    // padding-left: 24px;
+    // gap: 102px;
+    & .cell:nth-child(1){
+        white-space: nowrap;
+    }
+}
+.money__button{
+    top: 10px;
+    right: 25px;
+}
+.orders__row{
+    & .cell{
+        & .cell__content{
+            max-width: 76px;
+            margin: 0px auto;
+            justify-content: space-between;
+        }
+    }
+}
+.pay{
+    width: 100%;
+    justify-content: end;
+    
+    margin-top: 37px;
+    & span{
+        padding: 12px 68px;
+    }
+}
+
+.orders__row{
+    &:nth-child(2n+1){
+        background: rgba(247, 247, 249, 1);
+    }
+}
+
+.accordion__content{
+    
+    & .payment__content{
+        position: relative;
+        padding-right: 28px;
+        &::before{
+            position: absolute;
+            content: "";
+            height: 56px;
+            width: 1px;
+            background: rgba(126, 126, 126, 1);
+            right: 10px;
+            top: 20px;
+        }
+        & .payment__title{
+            padding-right: 24px;
+            padding-bottom: 0px;
+        }
+        & .payment__text{
+            padding-right: 24px;
+        }
+    }
+}
+.btn__arrow{
+    right: 8px;
+    top: 16px;
+}
+.input__hidden{
+    display: none;
+}
+.form__advcash{
+    display: none;
+}
