@@ -4,7 +4,8 @@
       "title": "Help Panel",
       "users":"Users",
       "chicken_nuggets_subscription":"Chicken Nuggets Subscription",
-      "canja_de_galinha_subscription":"Canja de Galinha Subscription"
+      "canja_de_galinha_subscription":"Canja de Galinha Subscription",
+        "subscriptions":"Subscriptions"
     },
     "sideBar":{
       "help_panel":"Help panel",
