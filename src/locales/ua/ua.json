@@ -4,7 +4,8 @@
       "title": "ДОВІДКОВА ЛОДВА",
       "users":"Користувачі",
       "chicken_nuggets_subscription":"Передплата Chicken Nuggets",
-      "canja_de_galinha_subscription":"Передплата Canja de Galinha"
+      "canja_de_galinha_subscription":"Передплата Canja de Galinha",
+        "subscriptions":"Передплат"
     },
     "sideBar":{
       "help_panel":"Довідкова лодва",
